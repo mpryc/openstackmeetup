@@ -1,2 +1,2 @@
-# openstackmeetup
+#. openstackmeetup
 Wroclaw OpenStack meetup playground
