@@ -1,0 +1,47 @@
+actionid: flake8
+msg: envreport
+cmdargs: ['/home/fedora/openstackmeetup/.tox/py27/bin/pip', 'freeze']
+env: {'LS_COLORS': 'rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'SSH_CONNECTION': '37.47.185.207 8528 145.239.29.75 22', 'LC_PAPER': 'en_GB.UTF-8', 'LC_MONETARY': 'en_GB.UTF-8', 'LANG': 'en_US.UTF-8', 'HISTCONTROL': 'ignoredups', 'HOSTNAME': 'sdghgdfh', 'XDG_SESSION_ID': '3', 'USER': 'fedora', 'SELINUX_ROLE_REQUESTED': '', 'PWD': '/home/fedora/openstackmeetup', 'HOME': '/home/fedora', 'SSH_CLIENT': '37.47.185.207 8528 22', 'SELINUX_LEVEL_REQUESTED': '', 'LC_NUMERIC': 'en_GB.UTF-8', 'SSH_TTY': '/dev/pts/0', 'MAIL': '/var/spool/mail/fedora', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XMODIFIERS': '@im=ibus', 'SELINUX_USE_CURRENT_RANGE': '', 'SHLVL': '1', 'LOGNAME': 'fedora', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PATH': '/home/fedora/openstackmeetup/.tox/py27/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/fedora/.local/bin:/home/fedora/bin', 'HISTSIZE': '1000', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LC_TIME': 'en_GB.UTF-8', '_': '/usr/bin/tox', 'OLDPWD': '/home/fedora', 'LC_CTYPE': 'C.UTF-8', 'PYTHONHASHSEED': '3118386198', 'VIRTUAL_ENV': '/home/fedora/openstackmeetup/.tox/py27'}
+
+boto==2.45.0
+cffi==1.9.1
+chardet==2.3.0
+cloud-init==0.7.9
+configobj==5.0.6
+cryptography==1.7.2
+flake8==3.5.0
+git-review==1.25.0
+gpg==1.8.0
+heat-cfntools==1.4.2
+idna==2.5
+iniparse==0.4
+IPy==0.81
+Jinja2==2.9.6
+jsonpatch==1.14
+jsonpointer==1.10
+MarkupSafe==0.23
+mccabe==0.6.1
+oauthlib==1.0.3
+pluggy==0.3.1
+ply==3.9
+prettytable==0.7.2
+psutil==5.0.1
+py==1.4.34
+pyasn1==0.2.3
+pycodestyle==2.3.1
+pycparser==2.14
+pycrypto==2.6.1
+pyflakes==1.6.0
+pyOpenSSL==16.2.0
+pyserial==3.1.1
+PySocks==1.5.7
+PyYAML==3.12
+requests==2.13.0
+rpm-python==4.13.0.1
+rsa==3.4.2
+sepolicy==1.1
+setools==4.1.0
+six==1.10.0
+tox==2.7.0
+urllib3==1.20
+virtualenv==15.1.0
